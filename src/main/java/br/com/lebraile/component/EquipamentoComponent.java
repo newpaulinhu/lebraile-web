@@ -13,6 +13,7 @@ public class EquipamentoComponent {
 	private static List<Equipamento> equipamentos = new LinkedList<>();
 	
 	public void adicionarEquipamento(Equipamento equipamento) {
+		equipamento.setId(Long.valueOf(equipamentos.size()));
 		equipamentos.add(equipamento);
 	}
 	

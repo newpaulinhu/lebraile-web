@@ -7,14 +7,14 @@ import lombok.Setter;
 
 @AllArgsConstructor @NoArgsConstructor
 @Getter @Setter
-public class Equipamento {
+public class Email {
 
-	private Long id;
+	private String nome;
 	
-	private String ip;
+	private String email;
 	
-	private String nomeAluno;
+	private String assunto;
 	
-	private Long tempoCaractere;
-	
+	private String mensagem;
+
 }
